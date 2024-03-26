@@ -1,0 +1,119 @@
+/* // small screens mobile phones  */
+@media (max-width: 767px) {
+    main {
+      grid-template-columns: 100%;
+    }
+  
+    main section {
+      height: max-content;
+    }
+  
+    main section:first-of-type {
+      padding: 3rem 35px;
+    }
+  
+    .hero_section {
+      margin-top: 5rem;
+      width: 100%;
+    }
+  
+    .hero_section_details h1 {
+      width: 100%;
+      line-height: 1;
+      text-align: center;
+    }
+  
+    .hero_section_details p {
+      text-align: center;
+      margin: auto;
+      width: 90%;
+      font-size: var(--p-text);
+      color: var(--gray);
+    }
+  
+    .hero_btns {
+      display: flex;
+      justify-content: center;
+      width: 100%;
+    }
+  
+    .hero_btns .btns {
+      flex-direction: column;
+      justify-content: center;
+    }
+  
+    .hero_btns .btns button {
+      width: 80vw;
+    }
+    .footer_text {
+      display: block;
+      width: 100%;
+      text-align: center;
+    }
+  }
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+    main {
+      grid-template-columns: 100%;
+    }
+  
+    main section {
+      height: max-content;
+    }
+  
+    main section:first-of-type {
+      padding: 7rem;
+    }
+  
+    .hero_section {
+      margin-top: 5rem;
+      width: 100%;
+    }
+  
+    .hero_section_details h1 {
+      width: 100%;
+      line-height: 1;
+      text-align: center;
+    }
+  
+    .hero_section_details p {
+      text-align: center;
+      margin: auto;
+      width: 90%;
+      font-size: var(--p-text);
+      color: var(--gray);
+    }
+  
+    .hero_btns .btns {
+      flex-direction: row;
+      justify-content: center;
+    }
+  
+    .hero_btns .btns button {
+      width: 100%;
+    }
+  
+    .footer_text {
+      display: block;
+      width: 100%;
+      text-align: center;
+    }
+  
+    .hero_btns .btns {
+      width: 100%;
+    }
+  }
+  
+  @media (max-width: 280px) {
+    main section:first-of-type nav {
+      justify-content: center;
+    }
+    main section:first-of-type nav ul {
+      display: none;
+    }
+    .hero_section_details h1 {
+      font-size: 40px;
+    }
+  }
+  
+  /* 0 - 767px -- mobile phones */
